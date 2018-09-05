@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: http://yiheiyu.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: Connor Blog
+subtitle: "代码改变人生"
+description: "Connor的个人博客"
+keywords: Connor,Connor Blog
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
-organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: Connor
+organization: yiheiyu.github.io
+organization_url: http://yiheiyu.github.io
+github_username: yiheiyu
+location: Shanghai, China
+email: wanlitest@gmail.com
 
 # ---------------- #
 #    Navigation    #
