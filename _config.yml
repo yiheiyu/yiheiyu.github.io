@@ -103,7 +103,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: yiheiyu
-    repo: blog-comments
+    repo: yiheiyu
     clientID: 5e3c27818dbfa2c3b027
     clientSecret: d2a21c38e3b9c0d7e54a25d6c444e87f1a253751
 # 在使用其它评论组件时可点击显示 Disqus
