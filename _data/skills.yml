@@ -1,19 +1,24 @@
 - name: Software Engineer Keywords
   keywords:
       - Java
-      - C++
+      - C#
       - Python
-      - Design Patterns
+      - MyBatis
+      - Maven
+      - Spring
+      - Hibernate
 
-- name: Mobile Developer Keywords
+- name: Database Keywords
   keywords:
-      - Android
-      - Reverse Engineering
+      - MySql
+      - Oracle
+      - SqlServer
+      - PL/SQL
+      - Navicat
 
 - name: Web Developer Keywords
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - HTML/HTML5
+      - CSS
+      - JavaScript
+      - Jquery
