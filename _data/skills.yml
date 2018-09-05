@@ -10,7 +10,7 @@
       - Android
       - Reverse Engineering
 
-- name: Windows Developer Keywords
+- name: Web Developer Keywords
   keywords:
       - Win32 SDK
       - DuiLib
