@@ -17,7 +17,7 @@ permalink: /about/
 * Either stand out or kicked out.
 
 
-## Contact
+## Contacts
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
