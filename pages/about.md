@@ -8,15 +8,16 @@ menu: 关于
 permalink: /about/
 ---
 
-```
-Make English as your working language.
-Practice makes perfect.
-All experience comes from mistakes.
-Don't be one of the leeches.
-Either stand out or kicked out.
-```
+## Aphorisms
 
-## 联系
+* Make English as your working language.
+* Practice makes perfect.
+* All experience comes from mistakes.
+* Don't be one of the leeches.
+* Either stand out or kicked out.
+
+
+## Contact
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
