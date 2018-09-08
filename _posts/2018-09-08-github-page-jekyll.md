@@ -13,16 +13,16 @@ jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和W
 * TOC
 {:toc}
 
-## 安装Jekyll
+## 安装配置Jekyll
 Jekyll只是一个静态网页的生成工具，想必你有过一定的了解，在这里不过多介绍。
-Jekyll的官网地址：http://jekyllcn.com/
+Jekyll的官网地址：[Jekyll - 简单静态博客网站生成器][1]
 步骤：
 1. 安装Ruby.
 2. 安装Devkit.
 3. 安装Jekyll.
 
 ### 安装Ruby
-> Ruby官方下载地址：https://rubyinstaller.org/downloads/
+> Ruby官方下载地址：[Downloads][2]
 
 ![](/images/posts/jekyll/ruby_download.png)
 
@@ -37,7 +37,10 @@ ruby 2.4.4p296 (2018-03-28 revision 63013) [x64-mingw32]
 ```
 
 ### 安装DevKit
-因为我下载的是Ruby+Devkit 2.4.4-2 (x64) ，附带着就把DevKit也安装了。
+因为我下载的是Ruby+Devkit 2.4.4-2 (x64) ，附带着就把DevKit也安装了，不过多解释，直接安装就好。
+> Ruby官方下载地址：[Downloads][2]
+
+![](/images/posts/jekyll/devkit-download.png)
 
 ### 安装Jekyll
 Ruby+Devkit 安装完之后开始安装Jekyll
@@ -67,3 +70,43 @@ jekyll 3.8.3
 ```
 
 没有问题
+
+### 新建博客
+都配置好之后输入以下命令新建一个Jekyll本地静态博客
+> jekyll new myblog
+
+![](/images/posts/jekyll/jekyll-new-myblog.png)
+
+如果没有报错，会在当前目录下生成一个myblog的文件夹
+![](/images/posts/jekyll/myblog.png)
+
+本地博客就建好了
+
+### 运行本地博客
+博客文件生成之后，在myblog目录下，输入以下命令运行服务器：
+> jekyll serve
+
+![](/images/posts/jekyll/jekyll-serve.png)
+
+在浏览器中访问：`http://127.0.0.1:4000/`
+
+![](/images/posts/jekyll/success.png)
+
+
+没有问题
+
+## GitHub Page
+Github Pages 是在Github上托管的静态网页。通过域名`xxx.github.io`来访问。
+
+### 创建一个GitHub账户
+创建GitHub账户不过多解释。
+
+### 新建一个repository
+例如你的GitHub名称是yiheiyu，就创建一个名为yiheiyu.github.io的repository。
+![](/images/posts/jekyll/github-repository.png)
+
+
+
+
+[1]: http://jekyllcn.com/
+[2]: https://rubyinstaller.org/downloads/
