@@ -7,7 +7,7 @@ comments: false
 permalink: /fuli.html
 ---
 
-分享一些你在网络上能用到的福利
+分享一些福利
 
 ## Accounts
 

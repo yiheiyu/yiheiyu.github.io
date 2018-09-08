@@ -1,9 +1,9 @@
 ---
 layout: post
 title: 使用Jekyll&Github Page搭建自己的个人博客
-categories: Jekyll,Github Page
+categories: Jekyll
 description: 使用Jekyll&Github Page搭建自己的个人博客
-keywords: Jekyll,Github Page
+keywords: Jekyll,GithubPage
 ---
 Github Pages 是在Github上托管的静态网页。从2016年6月15日开始，通过域名github.io访问使用的是https协议。Github Pages的代码仓库容量限定是1G,并且带宽限制是100G或者每月10万次访问。
 jekyll是一个简单的免费的Blog生成工具，类似WordPress。但是和WordPress又有很大的不同，原因是jekyll只是一个生成静态网页的工具，不需要数据库支持。但是可以配合第三方服务,例如Disqus。最关键的是jekyll可以免费部署在Github上，而且可以绑定自己的域名。
